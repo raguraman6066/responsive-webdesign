@@ -1,0 +1,14 @@
+/*===========================================
+            default values:
+            font-family: roboto condensed
+            greenishblue: #34c6d3 (buttons,icon,links,lines,background)
+            steelgrey : #41464b heading
+            bluebayoux : #64707b paragraph
+            whitee :#fff text with black-background
+            blackk:#000   
+           website for color: https://coolors.co/
+=============================================*/
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
