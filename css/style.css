@@ -7,21 +7,160 @@
             whitee :#fff text with black-background
             blackk:#000   
            website for color: https://coolors.co/
+
+
+           https://wowjs.uk/
+           https://animate.style/ 
 =============================================*/
+/* general css  */
 
 body {
   font-family: "Roboto Condensed", sans-serif;
 }
-/* css - grid example  */
-.coll-1 {
-  background-color: red;
+
+p {
+  color: #64707b;
+  font-size: 16px;
+  font-weight: 300;
 }
-.coll-2 {
-  background-color: rgb(76, 38, 245);
+h3 {
+  color: #41464b;
 }
-.coll-3 {
-  background-color: rgb(13, 212, 103);
+/*===========================================
+                    home
+=============================================*/
+
+#home-cover {
+  height: 100vh;
+  background-image: url("../img/bg-home.jpg");
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.coll-4 {
-  background-color: rgb(193, 211, 29);
+.bg-parallax {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+#home-content-box {
+  text-align: center;
+}
+
+h3 {
+  text-transform: uppercase;
+}
+#home-heading h3 {
+  color: white;
+  font-size: 55px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+/* button   */
+.btn-general {
+  border: 2px solid #fff;
+  border-radius: 0;
+  padding: 12px 26px;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.btn-white {
+  border: 2px solid #fff;
+  color: #fff;
+}
+.btn-white:hover,
+.btn-white:focus {
+  background-color: #fff;
+  color: #41464b;
+}
+
+.btn-blue {
+  border: 2px solid #34c6d3;
+  color: #34c6d3;
+}
+.btn-blue:hover,
+.btn-blue:focus {
+  background-color: #34c6d3;
+  color: #fff;
+}
+/* animation homepage */
+#home-cover {
+  animation-delay: 0.1s;
+  animation-duration: 0.5s;
+}
+#home-heading {
+  animation-delay: 0.5s;
+  animation-duration: 0.5s;
+}
+#home-btn {
+  animation-delay: 1s;
+  animation-duration: 0.5s;
+}
+
+/* service section  */
+.content-box {
+  padding: 60px 0;
+}
+.content-title {
+  text-align: center;
+}
+.content-title h3 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.content-title-underline {
+  width: 30px;
+  height: 3px;
+  background-color: #34c6d3;
+  margin: 0px auto;
+  margin-bottom: 30px;
+}
+.service-item {
+  padding: 20px 0;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.service-item-icon i {
+  color: #34c6d3;
+  float: left;
+  padding: 15px;
+  margin-right: 25px;
+  width: 90px;
+  height: 75px;
+  text-align: center;
+}
+.service-item:hover .service-item-icon i {
+  color: #fff;
+  background-color: #34c6d3;
+}
+.service-item-title h3 {
+  font-size: 20px;
+  font-weight: 400px;
+  margin-bottom: 10px;
+}
+
+/* about  */
+
+.about-content-outer {
+  float: left;
+}
+#about-content-box {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  height: 700px;
+}
+#about .content-title-underline {
+  margin: 0 0 30px;
+}
+#about-bg-diagonal {
+  height: 700px;
+  background-image: url("../img/bg-about.jpg");
+  border-left: 200px solid white;
+  border-top: 700px solid transparent;
 }
