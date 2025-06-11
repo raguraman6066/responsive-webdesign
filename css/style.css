@@ -12,3 +12,16 @@
 body {
   font-family: "Roboto Condensed", sans-serif;
 }
+/* css - grid example  */
+.coll-1 {
+  background-color: red;
+}
+.coll-2 {
+  background-color: rgb(76, 38, 245);
+}
+.coll-3 {
+  background-color: rgb(13, 212, 103);
+}
+.coll-4 {
+  background-color: rgb(193, 211, 29);
+}
