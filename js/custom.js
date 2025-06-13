@@ -10,3 +10,13 @@ $(function () {
     gallery: { enabled: true },
   });
 });
+//team
+$(document).ready(function () {
+  $(".owl-carousel").owlCarousel({
+    items: 3,
+    autoplay: true,
+    smartSpeed: 700,
+    loop: true,
+    autoplayHoverPause:true
+  });
+});
